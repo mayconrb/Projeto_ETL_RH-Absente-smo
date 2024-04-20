@@ -1,0 +1,18 @@
+site_name: ETL - RH Absenteísmo
+theme: 
+  name: material
+  palette: 
+    primary: yellow
+ 
+repo_name: mayconrb/Projeto_ETL_RH-Absenteismo
+repo_url: https://github.com/mayconrb/Projeto_ETL_RH-Absenteismo
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+plugins:
+  - search:
+  - mkdocstrings:
+      default_handler: python

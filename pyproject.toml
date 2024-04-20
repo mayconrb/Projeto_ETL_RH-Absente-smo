@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "projet1"
+version = "0.1.0"
+description = ""
+authors = ["mayconrb <mayconrb00@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+mkdocs = "^1.5.3"
+mkdocstrings = "^0.24.3"
+material = "^0.1"
+mkdocs-material = "^9.5.18"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

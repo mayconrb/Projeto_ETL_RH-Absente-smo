@@ -19,8 +19,8 @@ def extratc_excel(input_path: str) -> List[pd.DataFrame]:
 
 
 
-if __name__ == "__name__":
+if __name__ == "__main__":
     input_path = ".\data\input"
-    extratc_excel(input_path)
-    print("")
+    df = extratc_excel(input_path)
+    print(df)
 # %%
